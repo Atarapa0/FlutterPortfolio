@@ -1,0 +1,150 @@
+{
+  "header": {
+    "name": "フルカン・エルドアン"
+  },
+  "navigation": {
+    "home": "ホーム",
+    "about": "プロフィール",
+    "education": "学歴",
+    "projects": "プロジェクト",
+    "contact": "お問い合わせ"
+  },
+  "home": {
+    "hello": "こんにちは、",
+    "intro": "FlutterとDartを使用したモバイルアプリケーション開発に取り組んでいます。この間、様々なプロジェクトを完了し、公開してきました。ユーザーフレンドリーで、モダンかつパフォーマンス重視のアプリケーション開発において経験を積んできました。",
+    "skills": "スキル",
+    "contact": "お問い合わせ",
+    "subtitle": "フルカン・エルドアンです",
+    "role": "Flutterモバイル開発者 \n & UI/UXデベロッパー",
+    "about": "プロフィール",
+    "populer_skills": "主要スキル",
+    "skills_1": "モバイル開発",
+    "skills_2": "UI/UXデザイン",
+    "skills_3": "バックエンド開発",
+    "tools_others": "ツール＆その他"
+  },
+  "drawer": {
+    "title": "フルカン・エルドアン"
+  },
+  "about": {
+    "title": "プロフィール",
+    "description": "自己紹介",
+    "content": "大学在学中、様々なプロジェクトに積極的に参加しました。これらの経験を通じて、チームワークの重要性、作業環境の影響、そして異なる作業方法論について理解を深めました。また、コンピューターの使用に熟達するにつれ、データ収集、分析、アルゴリズムのスキルを向上させました。特にモバイルプログラミングに興味を持っています。Flutterを使用して、モダンでユーザーフレンドリーなモバイルアプリケーションの開発に取り組んでいます。また、英語の十分な訓練も受けました。日々自己啓発に努め、キャリアを前進させることを目指しています。",
+    "skills": {
+      "title": "スキルセット",
+      "frontend": "フロントエンド開発",
+      "backend": "バックエンド開発",
+      "mobile": "モバイルアプリ開発",
+      "ui_ux": "UI/UXデザイン",
+      "mobile_dev": "モバイル開発",
+      "version_control": "バージョン管理",
+      "cloud_services": "クラウドサービス",
+      "tools_others": "ツール＆その他"
+    }
+  },
+  "education": {
+    "title": "学歴",
+    "university_education": "大学教育",
+    "university": {
+      "bachelor": {
+        "title": "学士",
+        "field": "コンピューターエンジニアリング",
+        "school": "アマシヤ大学",
+        "period": "2023年 - 現在",
+        "degree": "学士号",
+        "subjects": [
+          "モバイルプログラミング",
+          "データ構造",
+          "データベース",
+          "プログラミング"
+        ]
+      },
+      "master": {
+        "title": "準学士",
+        "field": "コンピュータープログラミング",
+        "school": "イスタンブール・アイドゥン大学",
+        "period": "2019年 - 2023年",
+        "degree": "準学士号",
+        "subjects": [
+          "プログラミング",
+          "データ構造",
+          "アルゴリズム",
+          "ソフトウェアエンジニアリング"
+        ]
+      }
+    },
+    "certificates": {
+      "title": "資格＆実績",
+      "items": [
+        {
+          "title": "Flutter & Dart - 完全ガイド",
+          "institution": "Udemy",
+          "year": "2023",
+          "icon": "code"
+        },
+        {
+          "title": "AWS Cloud Practitioner",
+          "institution": "Amazon Web Services",
+          "year": "2023",
+          "icon": "cloud"
+        },
+        {
+          "title": "UI/UXデザイン基礎",
+          "institution": "Google",
+          "year": "2022",
+          "icon": "design_services"
+        }
+      ]
+    }
+  },
+  "projects": {
+    "title": "プロジェクト",
+    "description": "私のプロジェクトと作品",
+    "github_button": "GitHubで見る",
+    "items": [
+      {
+        "title": "Flutter Portfolio",
+        "description": "Furkan Erdoganポートフォリオは、個人のポートフォリオウェブサイトです。ユーザーは自身のプロジェクトとスキルを紹介するためにこのプラットフォームを作成しました。Flutterで開発され、モダンでパフォーマンス重視の設計を提供します。"
+      },
+      {
+        "title": "Weather App Vol1",
+        "description": "Weather Vol1は、ユーザーの位置情報を検出して現在の天気情報を提供する天気アプリです。Flutterで開発され、位置情報データにはGeolocatorを使用しています。天気データはOpenWeatherMap APIから取得しています。"
+      },
+      {
+        "title": "Weather App Vol2",
+        "description": "Weather Vol2は、前バージョンの改良版です。位置情報と住所データのより良い処理のために、GeolocatorとGeocodingパッケージが統合されています。このFlutterベースのアプリケーションは、WeatherMap APIで天気データを取得し、よりモダンなデザインを提供します。"
+      },
+      {
+        "title": "AudioBooks App",
+        "description": "AudioBookは、ユーザーが本を音声形式で聴くことができるアプリケーションです。再生速度の変更や早送り・巻き戻しなどの機能を備えています。Flutterで開発されたこのプロジェクトでは、音声再生操作にAudio Playerプラグインを使用しています。"
+      },
+      {
+        "title": "Call Clink Button",
+        "description": "Call Clink ButtonはWordPress用に開発されたプロジェクトです。ユーザーが複数の電話番号を追加できるようにします。PHPとCSSを主に使用して作成されたこのプロジェクトは、柔軟な構造とユーザーフレンドリーなデザインを目指しています。"
+      },
+      {
+        "title": "Library Automation",
+        "description": "Libraryは図書館アプリケーションです。ユーザーは本のリストにアクセスし、検索し、お気に入りの本をブックマークすることができます。アプリケーションはFlutterで開発され、データベース管理にSQLiteを使用しています。"
+      },
+      {
+        "title": "The Pixel Game",
+        "description": "The Pixel Gameは、楽しいピクセルベースのゲームとして開発されました。プレイヤーが障害物を避けてポイントを集めるこのゲームは、UnityとC#を使用して作られました。シンプルながら中毒性のあるゲームプレイを提供します。"
+      }
+    ]
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "subtitle": "お気軽にご連絡ください",
+    "contact_info": "連絡先情報",
+    "name": "お名前",
+    "email": "メールアドレス",
+    "phone": "電話番号",
+    "address": "住所",
+    "message": "メッセージ",
+    "send": "送信",
+    "success": "メッセージが正常に送信されました！",
+    "error": "エラーが発生しました。もう一度お試しください。",
+    "social_media": "ソーシャルメディア",
+    "location": "イスタンブール、トルコ"
+  }
+}

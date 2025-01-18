@@ -1,0 +1,150 @@
+{
+  "header": {
+    "name": "Furkan Erdogan"
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "education": "Education",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "home": {
+    "hello": "Hello,",
+    "intro": "I work on mobile application development with Flutter and Dart. During this time, I have completed and published various projects. I have gained experience in developing user-friendly, modern and performance-oriented applications.",
+    "skills": "Skills",
+    "contact": "Contact Me",
+    "subtitle": "I'm Furkan Erdogan",
+    "role": "Flutter Mobile Developer \n & UI/UX Developer",
+    "about": "About Me",
+    "populer_skills": "Featured Skills",
+    "skills_1": "Mobile Development",
+    "skills_2": "UI/UX Design",
+    "skills_3": "Backend Development",
+    "tools_others": "Tools & Others"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "Who Am I?",
+    "content": "During my university education, I actively participated in various projects. These experiences helped me understand the importance of teamwork, the impact of the work environment, and different working methodologies. Additionally, as I became more proficient in computer usage, I improved my skills in data collection, analysis, and algorithms. I am particularly interested in mobile programming and work on developing modern, user-friendly mobile applications using Flutter. I have also received adequate training in English. I aim to improve myself every day and advance in my career.",
+    "skills": {
+      "title": "My Skills",
+      "frontend": "Frontend Development",
+      "backend": "Backend Development",
+      "mobile": "Mobile App Development",
+      "ui_ux": "UI/UX Design",
+      "mobile_dev": "Mobile Development",
+      "version_control": "Version Control",
+      "cloud_services": "Cloud Services",
+      "tools_others": "Tools & Others"
+    }
+  },
+  "education": {
+    "title": "Education",
+    "university_education": "University Education",
+    "university": {
+      "bachelor": {
+        "title": "Bachelor's",
+        "field": "Computer Engineering",
+        "school": "Amasya University",
+        "period": "2013 - Present",
+        "degree": "Bachelor's degree",
+        "subjects": [
+          "Mobile Programming",
+          "Data Structures",
+          "Database",
+          "Programming"
+        ]
+      },
+      "master": {
+        "title": "Associate's",
+        "field": "Computer Programming",
+        "school": "Istanbul Aydin University",
+        "period": "2019 - 2023",
+        "degree": "Associate's degree",
+        "subjects": [
+          "Programming",
+          "Data Structures",
+          "Algorithms",
+          "Software Engineering"
+        ]
+      }
+    },
+    "certificates": {
+      "title": "Certificates & Achievements",
+      "items": [
+        {
+          "title": "Flutter & Dart - The Complete Guide",
+          "institution": "Udemy",
+          "year": "2023",
+          "icon": "code"
+        },
+        {
+          "title": "AWS Cloud Practitioner",
+          "institution": "Amazon Web Services",
+          "year": "2023",
+          "icon": "cloud"
+        },
+        {
+          "title": "UI/UX Design Fundamentals",
+          "institution": "Google",
+          "year": "2022",
+          "icon": "design_services"
+        }
+      ]
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "description": "My projects and works.",
+    "github_button": "View on GitHub",
+    "items": [
+      {
+        "title": "Flutter Portfolio",
+        "description": "Personal portfolio website"
+      },
+      {
+        "title": "Weather App Vol1",
+        "description": "Mobile Weather Application"
+      },
+      {
+        "title": "Weather App Vol2",
+        "description": "Mobile Weather Application - UI redesigned with a more modern design"
+      },
+      {
+        "title": "AudioBooks App",
+        "description": "Audiobook application"
+      },
+      {
+        "title": "Call Clink Button",
+        "description": "WordPress Plugin - Developed for adding multiple phone numbers"
+      },
+      {
+        "title": "Library Automation",
+        "description": "Library automation system"
+      },
+      {
+        "title": "The Pixel Game",
+        "description": "Pixel-style game"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Get in touch with me",
+    "contact_info": "Contact Information",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "message": "Message",
+    "send": "Send",
+    "success": "Your message has been sent successfully!",
+    "error": "An error occurred, please try again.",
+    "social_media": "Social Media",
+    "location": "Istanbul, Turkey"
+  },
+  "drawer": {
+    "title": "Furkan Erdogan"
+  }
+}

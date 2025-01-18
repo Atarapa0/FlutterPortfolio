@@ -1,0 +1,147 @@
+{
+  "header": {
+    "name": "Furkan Erdoğan"
+  },
+  "navigation": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımda",
+    "education": "Eğitim",
+    "projects": "Projeler",
+    "contact": "İletişim"
+  },
+  "home": {
+    "hello": "Merhaba,",
+    "intro": "Flutter ve Dart ile mobil uygulama geliştirme üzerinde çalışmalar yapıyorum. Bu süre zarfında farklı projeler tamamladım ve yayınladım. Kullanıcı dostu, modern ve performans odaklı uygulamalar geliştirme konusunda deneyim kazandım.",
+    "skills": "Yetenekler",
+    "contact": "İletişime Geç",
+    "subtitle": "Ben Furkan Erdoğan",
+    "role": "Flutter Mobil Geliştirici \n & UI/UX Tasarımcı",
+    "about": "Hakkımda",
+    "populer_skills": "Öne Çıkan Yetenekler",
+    "skills_1": "Mobil Geliştirme",
+    "skills_2": "UI/UX Tasarım",
+    "skills_3": "Backend Geliştirme",
+    "tools_others": "Araçlar & Diğerleri"
+  },
+  "about": {
+    "title": "Hakkımda",
+    "description": "Ben Kimim?",
+    "content": "Üniversite eğitimim sırasında çeşitli projelerde aktif olarak yer aldım. Bu deneyimler bana ekip çalışmasının önemini, çalışma ortamının etkisini ve farklı çalışma metodolojilerini anlamamı sağladı. Ayrıca, bilgisayar kullanımında daha fazla yetkinletikçe, veri toplama, analiz ve algoritmalardaki becerilerimi geliştirdim. Özellikle mobil programlamayla ilgileniyorum. Flutter kullanarak modern, kullanıcı dostu mobil uygulamalar geliştirmek için çalışıyorum. Ayrıca İngilizce dilinde yeterli eğitim aldım. Kendimi her geçen gün geliştirmeyi ve kariyerimde ilerlemeyi hedefliyorum.",
+    "skills": {
+      "title": "Yeteneklerim",
+      "frontend": "Frontend Geliştirme",
+      "backend": "Backend Geliştirme",
+      "mobile": "Mobil Uygulama Geliştirme",
+      "ui_ux": "UI/UX Tasarım",
+      "mobile_dev": "Mobil Geliştirme",
+      "version_control": "Versiyon Kontrolü",
+      "cloud_services": "Bulut Servisleri",
+      "tools_others": "Araçlar & Diğerleri"
+    }
+  },
+  "education": {
+    "title": "Eğitim",
+    "university_education": "Üniversite Eğitimi",
+    "university": {
+      "bachelor": {
+        "title": "Lisans",
+        "field": "Bilgisayar Mühendisliği",
+        "school": "Amasya Üniversitesi",
+        "period": "2023 -  Devam ",
+        "degree": "Lisans derecesi",
+        "subjects": [
+          "Mobil Programlama",
+          "Veri Yapıları",
+          "Veri Tabanı",
+          "Programlama"
+        ]
+      },
+      "master": {
+        "title": "Ön Lisans",
+        "field": "Bilgisayar Programcılığı",
+        "school": "İstanbul Aydın Üniversitesi",
+        "period": "2019 - 2023",
+        "degree": "Ön Lisans derecesi",
+        "subjects": [
+          "Programlama",
+          "Veri Yapıları",
+          "Algoritmalar",
+          "Yazılım Mühendisliği"
+        ]
+      }
+    },
+    "certificates": {
+      "title": "Sertifikalar & Başarılar",
+      "items": [
+        {
+          "title": "Flutter & Dart - The Complete Guide",
+          "institution": "Udemy",
+          "year": "2023",
+          "icon": "code"
+        },
+        {
+          "title": "AWS Cloud Practitioner",
+          "institution": "Amazon Web Services",
+          "year": "2023",
+          "icon": "cloud"
+        },
+        {
+          "title": "UI/UX Design Fundamentals",
+          "institution": "Google",
+          "year": "2022",
+          "icon": "design_services"
+        }
+      ]
+    }
+  },
+  "projects": {
+    "title": "Projeler",
+    "description": "Geliştirdiğim projeler ve çalışmalarım",
+    "github_button": "GitHub'da Görüntüle",
+    "items": [
+      {
+        "title": "Flutter Portfolio",
+        "description": "Furkan Erdoğan Portfolio, kişisel bir portfolyo web sitesidir. Kullanıcı, projelerini ve yeteneklerini sergilemek için bu platformu oluşturmuştur. Flutter ile geliştirilmiş olup, modern ve performans odaklı bir tasarım sunar."
+      },
+      {
+        "title": "Weather App Vol1",
+        "description": "Weather Vol1, kullanıcının konumunu algılayarak güncel hava durumu bilgilerini sunan bir hava durumu uygulamasıdır. Flutter ile geliştirilmiştir ve konum verisi almak için Geolocator kullanılmıştır. Hava durumu verileri OpenWeatherMap API üzerinden çekilmektedir."
+      },
+      {
+        "title": "Weather App Vol2",
+        "description": "Weather Vol2, bir önceki versiyonun geliştirilmiş halidir. Konum ve adres verilerini daha iyi işleyebilmek için Geolocator ve Geocoding paketleri entegre edilmiştir. Flutter tabanlı olan bu uygulama, hava durumu verilerini yine WeatherMap API ile alır ve daha modern bir tasarım sunar."
+      },
+      {
+        "title": "AudioBooks App",
+        "description": "AudioBook, kullanıcıların kitapları sesli olarak dinleyebileceği bir uygulamadır. Uygulamada ses hızını değiştirme ve ileri-geri atlama gibi özellikler bulunur. Flutter ile geliştirilen projede ses oynatma işlemleri için Audio Player eklentisi kullanılmıştır."
+      },
+      {
+        "title": "Call Clink Button",
+        "description": "Call Clink Button, WordPress için geliştirilmiş bir projedir. Kullanıcılara birden fazla telefon numarası ekleme imkanı sunar. PHP ve CSS ağırlıklı olarak oluşturulmuş olan bu proje, esnek bir yapı ve kullanıcı dostu bir tasarım hedeflemektedir."
+      },
+      {
+        "title": "Library Automation",
+        "description": "Library, bir kütüphane uygulamasıdır. Kullanıcılar kitap listelerine erişebilir, arama yapabilir ve favori kitaplarını işaretleyebilir. Uygulama Flutter ile geliştirilmiş olup, veritabanı yönetimi için SQLite kullanılmıştır."
+      },
+      {
+        "title": "The Pixel Game",
+        "description": "TThe Pixel Game, eğlenceli bir piksel tabanlı oyun olarak geliştirilmiştir. Oyuncuların puan toplamak için engellerden kaçındığı bu oyun, Unity ve C# kullanılarak yapılmıştır. Basit ama bağımlılık yapıcı bir oynanış sunar."
+      }
+    ]
+  },
+  "contact": {
+    "title": "İletişim",
+    "subtitle": "Benimle iletişime geçin",
+    "contact_info": "İletişim Bilgileri",
+    "name": "İsim",
+    "email": "E-posta",
+    "phone": "Telefon",
+    "address": "Adres",
+    "message": "Mesaj",
+    "send": "Gönder",
+    "success": "Mesajınız başarıyla gönderildi!",
+    "error": "Bir hata oluştu, lütfen tekrar deneyin.",
+    "social_media": "Sosyal Medya",
+    "location": "İstanbul, Türkiye"
+  }
+}

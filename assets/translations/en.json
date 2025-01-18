@@ -1,0 +1,150 @@
+{
+  "header": {
+    "name": "Furkan Erdogan"
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "education": "Education",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "home": {
+    "hello": "Hello,",
+    "intro": "I work on mobile application development with Flutter and Dart. During this time, I have completed and published various projects. I have gained experience in developing user-friendly, modern and performance-oriented applications.",
+    "skills": "Skills",
+    "contact": "Contact Me",
+    "subtitle": "I'm Furkan Erdogan",
+    "role": "Flutter Mobile Developer \n & UI/UX Developer",
+    "about": "About Me",
+    "populer_skills": "Featured Skills",
+    "skills_1": "Mobile Development",
+    "skills_2": "UI/UX Design",
+    "skills_3": "Backend Development",
+    "tools_others": "Tools & Others"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "Who Am I?",
+    "content": "During my university education, I actively participated in various projects. These experiences helped me understand the importance of teamwork, the impact of the work environment, and different working methodologies. In addition, as I became more proficient in using computers, I improved my skills in data collection, analysis, and algorithms. I am particularly interested in mobile programming. I work to develop modern, user-friendly mobile applications using Flutter. I also received sufficient training in English. I aim to improve myself day by day and advance in my career.",
+    "skills": {
+      "title": "My Skills",
+      "frontend": "Frontend Development",
+      "backend": "Backend Development",
+      "mobile": "Mobile App Development",
+      "ui_ux": "UI/UX Design",
+      "mobile_dev": "Mobile Development",
+      "version_control": "Version Control",
+      "cloud_services": "Cloud Services",
+      "tools_others": "Tools & Others"
+    }
+  },
+  "education": {
+    "title": "Education",
+    "university_education": "University Education",
+    "university": {
+      "bachelor": {
+        "title": "Bachelor's",
+        "field": "Computer Engineering",
+        "school": "Amasya University",
+        "period": "2023 - Present",
+        "degree": "Bachelor's degree",
+        "subjects": [
+          "Mobile Programming",
+          "Data Structures",
+          "Database",
+          "Programming"
+        ]
+      },
+      "master": {
+        "title": "Associate's",
+        "field": "Computer Programming",
+        "school": "Istanbul Aydin University",
+        "period": "2019 - 2023",
+        "degree": "Associate's degree",
+        "subjects": [
+          "Programming",
+          "Data Structures",
+          "Algorithms",
+          "Software Engineering"
+        ]
+      }
+    },
+    "certificates": {
+      "title": "Certificates & Achievements",
+      "items": [
+        {
+          "title": "Flutter & Dart - The Complete Guide",
+          "institution": "Udemy",
+          "year": "2023",
+          "icon": "code"
+        },
+        {
+          "title": "AWS Cloud Practitioner",
+          "institution": "Amazon Web Services",
+          "year": "2023",
+          "icon": "cloud"
+        },
+        {
+          "title": "UI/UX Design Fundamentals",
+          "institution": "Google",
+          "year": "2022",
+          "icon": "design_services"
+        }
+      ]
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "description": "My projects and works",
+    "github_button": "View on GitHub",
+    "items": [
+      {
+        "title": "Flutter Portfolio",
+        "description": "Furkan Erdogan Portfolio is a personal portfolio website. The user created this platform to showcase their projects and skills. Developed with Flutter, it offers a modern and performance-focused design."
+      },
+      {
+        "title": "Weather App Vol1",
+        "description": "Weather Vol1 is a weather application that provides current weather information by detecting the user's location. It was developed with Flutter and uses Geolocator for location data. Weather data is fetched from the OpenWeatherMap API."
+      },
+      {
+        "title": "Weather App Vol2",
+        "description": "Weather Vol2 is an improved version of the previous version. Geolocator and Geocoding packages have been integrated for better handling of location and address data. This Flutter-based application retrieves weather data via WeatherMap API and offers a more modern design."
+      },
+      {
+        "title": "AudioBooks App",
+        "description": "AudioBook is an application where users can listen to books in audio format. The app features playback speed control and skip forward-backward functionality. The Audio Player plugin was used for audio playback operations in this Flutter-developed project."
+      },
+      {
+        "title": "Call Clink Button",
+        "description": "Call Clink Button is a project developed for WordPress. It allows users to add multiple phone numbers. This project, primarily created using PHP and CSS, aims for a flexible structure and user-friendly design."
+      },
+      {
+        "title": "Library Automation",
+        "description": "Library is a library application. Users can access book lists, search, and bookmark their favorite books. The application was developed with Flutter, using SQLite for database management."
+      },
+      {
+        "title": "The Pixel Game",
+        "description": "The Pixel Game was developed as a fun pixel-based game. In this game, where players avoid obstacles to collect points, Unity and C# were used. It offers a simple but addictive gameplay."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Get in touch with me",
+    "contact_info": "Contact Information",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "message": "Message",
+    "send": "Send",
+    "success": "Your message has been sent successfully!",
+    "error": "An error occurred, please try again.",
+    "social_media": "Social Media",
+    "location": "Istanbul, Turkey"
+  },
+  "drawer": {
+    "title": "Furkan Erdogan"
+  }
+}
