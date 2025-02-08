@@ -161,8 +161,7 @@ class EducationContent extends StatelessWidget {
                         cert['institution']?.toString() ?? '',
                         cert['year']?.toString() ?? '',
                         getIcon(cert['icon']?.toString() ?? ''),
-                      ))
-                  .toList(),
+                      )),
             ],
           ),
         ],
@@ -201,7 +200,7 @@ class EducationContent extends StatelessWidget {
         borderRadius: BorderRadius.circular(24),
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withOpacity(0.1),
+            color: Colors.black.withAlpha(25),
             blurRadius: 10,
             offset: const Offset(0, 5),
           ),
@@ -312,7 +311,7 @@ class EducationContent extends StatelessWidget {
         borderRadius: BorderRadius.circular(24),
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withOpacity(0.1),
+            color: Colors.black.withAlpha(25),
             blurRadius: 10,
             offset: const Offset(0, 5),
           ),
