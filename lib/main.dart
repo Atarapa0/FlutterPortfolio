@@ -11,7 +11,6 @@ import 'package:provider/provider.dart';
 
 // Uygulama başlangıç fonksiyonu
 void main() async {
-  print('Uygulama başlatılıyor...');
   WidgetsFlutterBinding.ensureInitialized();
 
   // Dil desteği için logger başlatma
@@ -66,7 +65,7 @@ final _router = GoRouter(
                 color: AppTheme.surfaceColor,
                 boxShadow: [
                   BoxShadow(
-                    color: Colors.black.withOpacity(0.1),
+                    color: Colors.black.withAlpha(25),
                     blurRadius: 10,
                     offset: const Offset(0, 5),
                   ),
@@ -271,7 +270,7 @@ Widget _buildNavButton(
 
 // Header widget'ı
 class HeaderWidget extends StatelessWidget {
-  const HeaderWidget({Key? key}) : super(key: key);
+  const HeaderWidget({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -297,7 +296,7 @@ class HeaderWidget extends StatelessWidget {
 
 // Mobil menü drawer widget'ı
 class NavigationDrawerWidget extends StatelessWidget {
-  const NavigationDrawerWidget({Key? key}) : super(key: key);
+  const NavigationDrawerWidget({super.key});
 
   @override
   Widget build(BuildContext context) {
