@@ -44,13 +44,13 @@ class HomeContent extends StatelessWidget {
                 decoration: BoxDecoration(
                   gradient: LinearGradient(
                     colors: [
-                      AppTheme.gradientStart.withOpacity(0.1),
-                      AppTheme.gradientEnd.withOpacity(0.1),
+                      AppTheme.gradientStart.withAlpha(25),
+                      AppTheme.gradientEnd.withAlpha(25),
                     ],
                   ),
                   borderRadius: BorderRadius.circular(12),
                   border: Border.all(
-                    color: AppTheme.accentColor.withOpacity(0.2),
+                    color: AppTheme.accentColor.withAlpha(51),
                   ),
                 ),
                 child: Text(
@@ -91,7 +91,7 @@ class HomeContent extends StatelessWidget {
                             height: 1.2,
                             shadows: [
                               Shadow(
-                                color: AppTheme.gradientStart.withOpacity(0.5),
+                                color: AppTheme.gradientStart.withAlpha(127),
                                 offset: const Offset(2, 2),
                                 blurRadius: 4,
                               ),
@@ -134,13 +134,13 @@ class HomeContent extends StatelessWidget {
               decoration: BoxDecoration(
                 gradient: LinearGradient(
                   colors: [
-                    AppTheme.gradientStart.withOpacity(0.1),
-                    AppTheme.gradientEnd.withOpacity(0.1),
+                    AppTheme.gradientStart.withAlpha(25),
+                    AppTheme.gradientEnd.withAlpha(25),
                   ],
                 ),
                 borderRadius: BorderRadius.circular(12),
                 border: Border.all(
-                  color: AppTheme.accentColor.withOpacity(0.2),
+                  color: AppTheme.accentColor.withAlpha(51),
                 ),
               ),
               child: Text(
@@ -164,14 +164,14 @@ class HomeContent extends StatelessWidget {
                         : 1000),
             padding: const EdgeInsets.all(24),
             decoration: BoxDecoration(
-              color: AppTheme.surfaceColor.withOpacity(0.3),
+              color: AppTheme.surfaceColor.withAlpha(76),
               borderRadius: BorderRadius.circular(16),
               border: Border.all(
-                color: AppTheme.accentColor.withOpacity(0.1),
+                color: AppTheme.accentColor.withAlpha(25),
               ),
               boxShadow: [
                 BoxShadow(
-                  color: Colors.black.withOpacity(0.1),
+                  color: Colors.black.withAlpha(25),
                   blurRadius: 10,
                   offset: const Offset(0, 5),
                 ),
@@ -185,7 +185,7 @@ class HomeContent extends StatelessWidget {
                     Container(
                       padding: const EdgeInsets.all(8),
                       decoration: BoxDecoration(
-                        color: AppTheme.accentColor.withOpacity(0.1),
+                        color: AppTheme.accentColor.withAlpha(25),
                         borderRadius: BorderRadius.circular(8),
                       ),
                       child: Icon(
@@ -218,7 +218,7 @@ class HomeContent extends StatelessWidget {
                         : isTablet
                             ? 17
                             : 18,
-                    color: AppTheme.textColor.withOpacity(0.7),
+                    color: AppTheme.textColor.withAlpha(178),
                     height: 1.6,
                   ),
                   textAlign: TextAlign.justify,
@@ -291,12 +291,12 @@ class HomeContent extends StatelessWidget {
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
           colors: [
-            AppTheme.gradientStart.withOpacity(0.1),
-            AppTheme.gradientEnd.withOpacity(0.1),
+            AppTheme.gradientStart.withAlpha(25),
+            AppTheme.gradientEnd.withAlpha(25),
           ],
         ),
         border: Border.all(
-          color: AppTheme.accentColor.withOpacity(0.2),
+          color: AppTheme.accentColor.withAlpha(51),
           width: 2,
         ),
       ),
@@ -319,7 +319,7 @@ class HomeContent extends StatelessWidget {
         borderRadius: BorderRadius.circular(24),
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withOpacity(0.1),
+            color: Colors.black.withAlpha(25),
             blurRadius: 10,
             offset: const Offset(0, 5),
           ),
@@ -331,7 +331,7 @@ class HomeContent extends StatelessWidget {
           Container(
             padding: const EdgeInsets.all(12),
             decoration: BoxDecoration(
-              color: AppTheme.primaryColor.withOpacity(0.1),
+              color: AppTheme.primaryColor.withAlpha(25),
               borderRadius: BorderRadius.circular(12),
             ),
             child: Icon(
@@ -354,7 +354,7 @@ class HomeContent extends StatelessWidget {
             description,
             style: TextStyle(
               fontSize: 16,
-              color: Colors.white.withOpacity(0.7),
+              color: Colors.white.withAlpha(178),
             ),
           ),
         ],
