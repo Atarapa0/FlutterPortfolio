@@ -16,7 +16,7 @@ import 'dart:async';
 // Proje kartları için StatefulWidget
 // StatefulWidget kullanılarak resim geçişleri ve animasyonlar yönetilir
 class ProjectsContent extends StatefulWidget {
-  const ProjectsContent({Key? key}) : super(key: key);
+  const ProjectsContent({super.key});
 
   @override
   State<ProjectsContent> createState() => _ProjectsContentState();
@@ -69,7 +69,7 @@ class _ProjectsContentState extends State<ProjectsContent> {
                 defaultValue: 'My projects and works.'),
             style: TextStyle(
               fontSize: screenWidth > 800 ? 18 : 16,
-              color: Colors.white.withOpacity(0.7),
+              color: Colors.white.withAlpha(178),
             ),
           ),
           const SizedBox(height: 32),
@@ -94,7 +94,7 @@ class _ProjectsContentState extends State<ProjectsContent> {
                   'assets/projects/portfolio3.jpeg',
                   'assets/projects/portfolio4.jpeg'
                 ],
-                'https://github.com/Atarapa0',
+                'https://github.com/Atarapa0/FlutterPortfolio',
               ),
               _buildProjectCard(
                 provider.translations['projects']['items'][1]['title'] ??
@@ -142,7 +142,7 @@ class _ProjectsContentState extends State<ProjectsContent> {
                   'assets/projects/callclink1.png',
                   'assets/projects/callclink2.png'
                 ],
-                'https://github.com/Atarapa0',
+                'https://github.com/Atarapa0/Call-Clink-Buttom',
               ),
               _buildProjectCard(
                 provider.translations['projects']['items'][5]['title'] ??
@@ -155,7 +155,7 @@ class _ProjectsContentState extends State<ProjectsContent> {
                   'assets/projects/library2.png',
                   'assets/projects/library3.png'
                 ],
-                'https://github.com/Atarapa0',
+                'https://github.com/Atarapa0/Library',
               ),
               _buildProjectCard(
                 provider.translations['projects']['items'][6]['title'] ??
@@ -200,13 +200,13 @@ class ProjectCard extends StatefulWidget {
   final String githubLink;
 
   const ProjectCard({
-    Key? key,
+    super.key,
     required this.title,
     required this.description,
     required this.technologies,
     required this.images,
     required this.githubLink,
-  }) : super(key: key);
+  });
 
   @override
   State<ProjectCard> createState() => _ProjectCardState();
@@ -259,7 +259,7 @@ class _ProjectCardState extends State<ProjectCard> {
         borderRadius: BorderRadius.circular(24),
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withOpacity(0.1),
+            color: Colors.black.withAlpha(25),
             blurRadius: 10,
             offset: const Offset(0, 5),
           ),
@@ -329,7 +329,7 @@ class _ProjectCardState extends State<ProjectCard> {
             widget.description,
             style: TextStyle(
               fontSize: 16,
-              color: Colors.white.withOpacity(0.7),
+              color: Colors.white.withAlpha(178),
             ),
           ),
           const SizedBox(height: 24),
@@ -343,8 +343,8 @@ class _ProjectCardState extends State<ProjectCard> {
                       decoration: BoxDecoration(
                         gradient: LinearGradient(
                           colors: [
-                            AppTheme.gradientStart.withOpacity(0.2),
-                            AppTheme.gradientEnd.withOpacity(0.2),
+                            AppTheme.gradientStart.withAlpha(51),
+                            AppTheme.gradientEnd.withAlpha(51),
                           ],
                         ),
                         borderRadius: BorderRadius.circular(20),
@@ -361,7 +361,7 @@ class _ProjectCardState extends State<ProjectCard> {
                           Text(
                             tech,
                             style: TextStyle(
-                              color: Colors.white.withOpacity(0.7),
+                              color: Colors.white.withAlpha(178),
                               fontSize: 14,
                             ),
                           ),
@@ -385,8 +385,8 @@ class _ProjectCardState extends State<ProjectCard> {
               decoration: BoxDecoration(
                 gradient: LinearGradient(
                   colors: [
-                    AppTheme.gradientStart.withOpacity(0.1),
-                    AppTheme.gradientEnd.withOpacity(0.1),
+                    AppTheme.gradientStart.withAlpha(25),
+                    AppTheme.gradientEnd.withAlpha(25),
                   ],
                 ),
                 borderRadius: BorderRadius.circular(12),
